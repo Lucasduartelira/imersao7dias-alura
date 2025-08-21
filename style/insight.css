@@ -1,0 +1,54 @@
+.card-insight {
+    background-color: rgb(255, 234, 234);
+    padding: 64px 64px;
+    text-align: center;
+    margin: 7em 5em 7em;
+    border-radius: 16px;
+}
+
+.titulo-sobrenos {
+    font-size: 36px;
+    margin: 2em 2em;
+
+}
+
+.sobre-nos {
+    font-size: 14px;
+}
+
+.julia {
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .card-insight {
+        background-color: rgb(255, 234, 234);
+        padding: 16px 0;
+        text-align: center;
+        margin: 7em 5em 7em;
+        border-radius: 16px;
+    }
+
+    .titulo-sobrenos {
+        font-size: 36px;
+        margin: 2em 1em;
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .insight {
+        padding: 1em 0 3em;
+    }
+    .card-insight {
+        width: 90%;/* ou 100% se preferir */
+        max-width: 400px;/* limite para não esticar demais */
+        margin: 0 auto;
+        padding: 0 0 2em;
+        text-align: center;
+    }
+    .titulo-sobrenos {
+    font-size: 18px;
+}
+}
+

@@ -1,0 +1,76 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding: 1em;
+}
+
+.logomarca {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.recursos {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    text-decoration: none;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    text-decoration: none;
+}
+
+.logomarca a,
+.recursos a,
+.login a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.cadastrar {
+    background-color: var(--main-color);
+    border-radius: 8px;
+    color: beige;
+    padding: 0.1em 2em;
+}
+
+.texto-cadastrar {
+    color: aliceblue;
+}
+
+@media screen and (max-width: 1024px) {
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .cabeçalho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 5em;
+    }
+    .recursos {
+        display: none;
+    }
+    .logomarca-titulo {
+        display: none;
+
+    }
+    .texto-entrar, .texto-cadastrar {
+        font-size: 14px;
+    }
+
+
+}

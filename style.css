@@ -1,0 +1,24 @@
+@import url(/style/header.css);
+@import url(/style/container.css);
+@import url(/style/card.css);
+@import url(/style/vagas.css);
+@import url(/style/cargos.css);
+@import url(/style/insight.css);
+@import url(/style/footer.css);
+
+:root {
+  --text-color: #667085;
+  --main-color: #8E2424;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./font/static/Inter_18pt-Medium.ttf') format('truetype');
+  font-style: normal;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+

@@ -1,0 +1,71 @@
+.footer {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-footer {
+    text-align: center;
+    align-items: center;
+}
+
+.e-mail-cadastrar {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 5em;
+    gap: 16px;
+}
+
+.titulo-footer {
+    font-size: 36px;
+}
+
+.descrição-footer {
+    padding: 2em;
+    font-size: 20px;
+}
+
+.contato-pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--text-color);
+    border-radius: 8px;
+    padding: 1em;
+    width: 50%;
+    color: var(--azul);
+    outline: none;
+    text-align: center;
+    width: 360px;
+}
+
+.contato-pesquisa::placeholder {
+    text-align: start;
+}
+
+.cadastrar {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 0;
+        padding: 0;
+    }
+    .titulo-footer {
+        font-size: 24px;
+        padding: 1em 0 0;
+    }
+
+    .direitos-reservados {
+        text-align: center;
+    }
+
+    .contato-pesquisa {
+        width: 40%;
+
+    }
+
+    .e-mail-cadastrar {
+        padding: 0 0 1em;
+    }
+}

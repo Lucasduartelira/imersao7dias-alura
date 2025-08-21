@@ -1,0 +1,41 @@
+.container-sobre {
+    text-align: center;
+    padding: 3em 5em 3em;
+}
+
+.sobre-nos {
+    color: var(--main-color);
+    font-size: 16px;
+}
+
+.headline {
+    font-size: 48px;
+}
+
+.texto {
+    flex-wrap: wrap;
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-sobre {
+        padding: 0 1em;
+
+    }
+
+    .sobre-nos {
+        padding: 36px 0 0;
+    }
+
+    .headline {
+        font-size: 32px;
+    }
+
+    .texto {
+        font-size: 14px;
+        width: 100%;
+        padding: 0 0 3em;
+    }
+
+}

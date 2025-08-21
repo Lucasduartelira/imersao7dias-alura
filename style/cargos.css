@@ -1,0 +1,67 @@
+.cargos {
+    padding: 1em 0 5em;
+}
+
+.box-cargos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricao-cargos {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    width: 700px;
+}
+
+.titulo-cargos {
+    width: 700px;
+    /* igual ao card */
+    text-align: left;
+    /* alinha texto à esquerda */
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.salarios-cargos {
+    display: flex;
+    gap: 24px;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.especialidades {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cargos {
+        padding: 1em 0 1em;
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .box-cargos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descricao-cargos {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #f0f0f0;
+        border-radius: 12px;
+        padding: 5px 20px;
+        margin-bottom: 15px;
+        width: 80%;
+        font-size: 14px;
+    }
+    .titulo-cargos {
+        text-align: center;
+        padding: 0 0 1em;
+    }
+}
